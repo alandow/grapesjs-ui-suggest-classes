@@ -1,25 +1,23 @@
 {
-  "name": "@alandow/grapesjs-ui-suggest-classes",
-  "version": "1.0.23",
+  "name": "grapesjs-ui-suggest-classes",
+  "version": "1.0.1",
   "description": "Grapesjs Ui Suggest Classes",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/alandow/grapesjs-ui-suggest-classes.git"
   },
   "scripts": {
-    "prepublish": "$npm_execpath run build",
-    "start": "grapesjs-cli serve --patch=false",
-    "build": "grapesjs-cli build --patch=false"
+    "start": "grapesjs-cli serve",
+    "build": "grapesjs-cli build",
+    "bump": "npm version patch -m 'Bump v%s'"
   },
   "keywords": [
     "grapesjs",
-    "plugin",
-    "grapesjs-plugin"
+    "plugin"
   ],
   "devDependencies": {
-    "grapesjs-cli": "^4.1.3",
-    "lit-html": "^3.2.1"
+    "grapesjs-cli": "^4.1.3"
   },
   "license": "MIT"
 }
