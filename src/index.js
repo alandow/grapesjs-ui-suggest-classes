@@ -41,7 +41,7 @@ export default (editor, opts = {}) => {
       // extra arbitrary classes list
       extraClasses: [],
       // a switch to allow parsing for CSS classes from a URL
-      parseCssURLForClasses: true,
+      parseCssURLForClasses: false,
       // the URL to parse
       cssToParseURL: "",
     },
